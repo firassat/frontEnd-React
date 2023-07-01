@@ -1,0 +1,8 @@
+.section-header h4 {
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.section-header h4 span {
+  color: var(--main-color);
+}

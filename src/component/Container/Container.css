@@ -1,0 +1,5 @@
+.pag-cont {
+  background-color: var(--container-color);
+  padding: 60px;
+  border-radius: 25px;
+}

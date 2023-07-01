@@ -1,0 +1,35 @@
+.bottun1 a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 12px 30px;
+  background-color: var(--main-color);
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.bottun1 a:hover {
+  color: var(--main-color);
+  background-color: white;
+}
+
+.bottun2 a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 15px;
+  padding: 12px 30px;
+  border: 1px solid var(--main-color);
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.active a:hover {
+  color: var(--main-color);
+  background-color: white;
+  border: 1px solid white;
+}
+.no-active a {
+  color: #666;
+  border: 1px solid #666;
+  cursor: default;
+}

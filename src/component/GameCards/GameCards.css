@@ -1,0 +1,43 @@
+.game-library-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.game-library-card {
+  flex: 1 1 100%;
+}
+.game-library-card ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--container-color);
+  padding-left: 0rem;
+}
+.game-library-card ul li {
+  font-size: 14px;
+}
+.game-library-card ul li span {
+  color: #666;
+}
+.game-library-card ul li img {
+  border-radius: 25px;
+}
+@media ((max-width: 750px)) {
+  .game-library-card ul .img {
+    flex: 100%;
+  }
+  .game-library-card ul li img {
+    width: 50%;
+    margin: 2px auto;
+  }
+  .game-library-card ul {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .game-library-card ul li {
+    padding: 10px 0;
+    width: 25%;
+  }
+  .game-library-card ul .btn {
+    flex: 100%;
+  }
+}
